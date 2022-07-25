@@ -27,3 +27,25 @@ YAML 파일의 훌륭한 가독성 덕분에 사용자들이 느끼는 앤서블
 멱등성이란 여러번 수행해도 같은 결과를 뱉는 성질을 말합니다.
 
 앤서블은 YAML로 관리되는 명령집을 여러번 수행하더라도 언제나 같은 결과가 나올 수 있도록 여러가지 관리를 합니다.
+
+
+## Ansible 설치
+
+Ansible은 Python의 pip, OS의 패키지 관리도구를 이용하여 설치 가능
+
+Ansible을 이용하여 Ansible 버전을 설정하고 설치하는것을 추천!!
+Ansible은 2.x, 3.x, 4.x 각 버전에 따라 문법이 다르기 때문에 테스트 환경과 실행환경의 버전을 고정하여 실행하는 것이 좋습니다.
+
+
+### Python 
+```
+$ pip install ansible
+
+# 설치 할 Ansible 버전을 설정
+$ pip install ansible==[version]
+```
+
+### Ubuntu
+```
+$ apt install ansible
+```
